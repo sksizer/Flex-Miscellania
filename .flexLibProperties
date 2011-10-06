@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" version="3">
+  <includeClasses>
+    <classEntry path="com.understandingflex.as3.dataViz.RangedState"/>
+    <classEntry path="com.understandingflex.flex.dataViz.VerticalRangeStateBar"/>
+    <classEntry path="com.understandingflex.util.CallLater"/>
+    <classEntry path="com.understandingflex.util.DictionaryUtil"/>
+    <classEntry path="com.understandingflex.util.FrameCounter"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>
