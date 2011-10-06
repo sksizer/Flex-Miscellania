@@ -1,11 +1,14 @@
 package
 com.understandingflex.flex.dataViz{
-	import com.understandingflex.as3.dataViz.RangedState;
+	import com.understandingflex.as3.dataViz.RangedStateBar;
 
 	import flash.display.Sprite;
 
 	import mx.core.UIComponent;
 
+	/**
+	 * This is a simple visualization.
+	 */
 	public class VerticalRangeStateBar extends UIComponent
 	{
 		
@@ -15,7 +18,7 @@ com.understandingflex.flex.dataViz{
 		}
 		
 		private var _background:Sprite;
-		private var _rangedState:RangedState;
+		private var _rangedState:RangedStateBar;
 		
 	
 		//--------------------------------------------------------------------------
@@ -78,7 +81,7 @@ com.understandingflex.flex.dataViz{
 			
 			if (_rangedState == null)
 			{
-				_rangedState = new RangedState(true);
+				_rangedState = new RangedStateBar(true);
 			}
 			addChild(_rangedState);
 		}

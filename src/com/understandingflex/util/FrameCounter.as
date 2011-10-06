@@ -6,6 +6,10 @@ package com.understandingflex.util
 
 	import mx.core.FlexGlobals;
 
+	/**
+	 * Provides a running count of frames for the application and also provides 
+	 * a single point to hook in and listen to frame events.
+	 */
 	public class FrameCounter
 	{
 		private static var _running:Boolean = false;

@@ -4,15 +4,23 @@ com.understandingflex.as3.dataViz{
 
 	import flash.display.Sprite;
 
-	public class RangedState extends Sprite
+	/**
+	 * 
+	 */
+	public class RangedStateBar extends Sprite
 	{
+		/**
+		 * 
+		 */
 		private var states:States;
+		
+		
 		private var updates:Vector.<UpdateValue>;
 
 		private var drawWidth:Number;
 		private var drawHeight:Number;
 		
-		public function RangedState(startAtZero:Boolean = true, drawWidth:Number = 100, drawHeight:Number = 1000)
+		public function RangedStateBar(startAtZero:Boolean = true, drawWidth:Number = 100, drawHeight:Number = 1000)
 		{
 			if (startAtZero)
 				min = 0;
